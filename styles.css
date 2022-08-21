@@ -1,0 +1,130 @@
+@font-face {
+    font-family: Party;
+    src: url("fonts/Birthday_Party.otf");
+}
+
+@font-face {
+    font-family: Paw;
+    src: url("fonts/Paw.ttf");
+}
+
+body {
+    text-align: center;
+    font-family: Party, cursive;
+    word-spacing: 10px;
+    background: linear-gradient(#F7D4F9, #CCAEEF);
+    color: #E63B79;
+}
+
+h1 {
+    font-family: Paw, cursive;
+    font-size: 40px;
+}
+
+h2 {
+    font-size: 30px;
+    max-width: 300px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+h4 {
+    font-size: 70px;
+}
+
+h1, h2, h3, h4 {
+    text-shadow: 0 0 1px white;
+}
+
+p, a {
+    color: white;
+    font-size: 20px;
+    text-shadow: 0 0 1px black;
+}
+
+#jazz-img {
+    width: 200px;
+    border-radius: 50%;
+    border: 6px solid #E63B79;
+    margin-bottom: 10px;
+}
+
+#every-day {
+    background: #EFB0C9;
+    padding: 5px 10px;
+    border-radius: 10px;
+    margin: 5px 0 10px;
+}
+
+#bday {
+    margin: 20px 0 0 0;
+    background: #EFB0C9;
+    padding: 10px 20px;
+    border-radius: 20px;
+}
+
+#header, .gift-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#bday-img-games {
+    height: 200px;
+}
+
+.bday-emoji {
+    font-size: 40px;
+    margin: 10px 0 0 0;
+}
+
+.gift-section {
+    margin-top: 10px;
+}
+
+.gift-title {
+    margin: 10px auto 30px auto;
+}
+
+.gift-hint {
+    margin-top: 0;
+}
+
+.gift-img {
+    width: 400px;
+    height: 400px;
+    border: 6px solid #F9F4A2;
+    border-radius: 10px;
+    background-image: url("images/gift-cover.jpg");
+    background-size: cover;
+}
+
+#bday-img-food:hover {
+    background-image: url("images/food.gif");
+}
+
+#bday-img-brushing:hover {
+    background-image: url("images/brushing.gif");
+}
+
+#bday-img-friends:hover {
+    background-image: url("images/friends.gif");
+}
+
+#bday-img-games:hover {
+    background-image: url("images/games.gif");
+}
+
+#bday-img-relax:hover {
+    background-image: url("images/relax.gif");
+}
+
+#footer {
+    font-style: italic;
+    max-width: 400px;
+    margin: 40px auto;
+}
+
